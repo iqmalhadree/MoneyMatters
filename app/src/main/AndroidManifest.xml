@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.okok.moneymatters">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name="com.okok.moneymatters.AccountActivity"></activity>
+        <activity android:name="com.okok.moneymatters.HistoryActivity" />
+        <activity android:name="com.okok.moneymatters.MonthlyAnalyticsActivity" />
+        <activity android:name="com.okok.moneymatters.WeeklyAnalyticsActivity" />
+        <activity android:name="com.okok.moneymatters.DailyAnalyticsActivity" />
+        <activity android:name="com.okok.moneymatters.ChooseAnalyticActivity" />
+        <activity android:name="com.okok.moneymatters.WeekSpendingActivity" />
+        <activity android:name="com.okok.moneymatters.TodaySpendingActivity" />
+        <activity android:name="com.okok.moneymatters.BudgetActivity" />
+        <activity android:name="com.okok.moneymatters.MainActivity" />
+        <activity android:name="com.okok.moneymatters.RegistrationActivity" />
+        <activity android:name="com.okok.moneymatters.LoginActivity" />
+        <activity android:name="com.okok.moneymatters.SplashScreenActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
