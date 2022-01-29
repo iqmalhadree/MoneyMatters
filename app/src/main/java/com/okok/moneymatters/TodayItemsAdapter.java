@@ -66,34 +66,34 @@ public class TodayItemsAdapter  extends  RecyclerView.Adapter<TodayItemsAdapter.
 
         switch (data.getItem()){
             case "Transport":
-                holder.imageView.setImageResource(R.drawable.transport);
+                holder.imageView.setImageResource(R.drawable.ic_transport);
                 break;
             case "Food":
-                holder.imageView.setImageResource(R.drawable.food);
+                holder.imageView.setImageResource(R.drawable.ic_food);
                 break;
             case "House":
-                holder.imageView.setImageResource(R.drawable.house);
+                holder.imageView.setImageResource(R.drawable.ic_house);
                 break;
             case "Entertainment":
-                holder.imageView.setImageResource(R.drawable.entertainment);
+                holder.imageView.setImageResource(R.drawable.ic_entertainment);
                 break;
             case "Education":
-                holder.imageView.setImageResource(R.drawable.education);
+                holder.imageView.setImageResource(R.drawable.ic_education);
                 break;
             case "Charity":
-                holder.imageView.setImageResource(R.drawable.charity);
+                holder.imageView.setImageResource(R.drawable.ic_consultancy);
                 break;
             case "Apparel":
-                holder.imageView.setImageResource(R.drawable.clothes);
+                holder.imageView.setImageResource(R.drawable.ic_clothes);
                 break;
             case "Health":
-                holder.imageView.setImageResource(R.drawable.health);
+                holder.imageView.setImageResource(R.drawable.ic_health);
                 break;
             case "Personal":
-                holder.imageView.setImageResource(R.drawable.personal);
+                holder.imageView.setImageResource(R.drawable.ic_personal);
                 break;
             case "Other":
-                holder.imageView.setImageResource(R.drawable.other);
+                holder.imageView.setImageResource(R.drawable.ic_other);
                 break;
         }
 
