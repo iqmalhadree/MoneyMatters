@@ -5,13 +5,13 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:background="#808080"
+    android:background="#c0c0c0"
     tools:context=".ChooseAnalyticActivity">
 
     <androidx.appcompat.widget.Toolbar
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="#000"
+        android:background="ffe347"
         android:id="@+id/toolbar"
         android:elevation="4dp"
         android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
@@ -78,7 +78,7 @@
                 android:id="@+id/weekBtnImageView"
                 android:layout_width="60dp"
                 android:layout_height="60dp"
-                android:src="@drawable/week"/>
+                android:src="@drawable/weekly"/>
             <TextView
                 android:id="@+id/weekBtnTextView"
                 android:layout_width="wrap_content"
@@ -114,7 +114,7 @@
                 android:id="@+id/monthBtnImageView"
                 android:layout_width="60dp"
                 android:layout_height="60dp"
-                android:src="@drawable/month"/>
+                android:src="@drawable/monthly"/>
             <TextView
                 android:id="@+id/monthBtnTextView"
                 android:layout_width="wrap_content"
