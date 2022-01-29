@@ -27,7 +27,7 @@
             android:id="@+id/logo"
             android:layout_width="150dp"
             android:layout_height="150dp"
-            android:src="@drawable/applogo"
+            android:src="@drawable/MMlogoBlack"
             android:layout_gravity="center"
             android:layout_marginTop="10dp"/>
 
@@ -50,15 +50,17 @@
 
         <TextView
             android:id="@+id/userEmail"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="-"
-            android:textSize="18sp"
-            android:textColor="#000"
-            android:textStyle="bold"
+            android:layout_width="300dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center"
+            android:layout_margin="20dp"
+            android:background="#fff"
             android:gravity="center"
-            android:layout_margin="10dp"
+            android:text="-"
             android:textAllCaps="true"
+            android:textColor="#000"
+            android:textSize="18sp"
+            android:textStyle="bold"
             />
 
         <Button
