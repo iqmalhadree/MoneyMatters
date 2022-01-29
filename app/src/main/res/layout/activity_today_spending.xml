@@ -5,6 +5,7 @@
     android:layout_width="match_parent"
     android:orientation="vertical"
     android:layout_height="match_parent"
+    android:background="#c0c0c0"
     tools:context=".TodaySpendingActivity">
 
 
@@ -15,7 +16,7 @@
         <androidx.appcompat.widget.Toolbar
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="#000"
+            android:background="#ffe347"
             android:id="@+id/toolbar"
             android:elevation="4dp"
             android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
@@ -25,7 +26,7 @@
             android:id="@+id/totalAmountSpentOn"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="TotalAmount: $0"
+            android:text="TotalAmount: RM0"
             android:textColor="#000"
             android:textSize="20sp"
             android:textStyle="bold"
@@ -45,7 +46,9 @@
             <androidx.recyclerview.widget.RecyclerView
                 android:id="@+id/recyclerView"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"/>
+                android:layout_height="match_parent"
+                app:layout_anchor="@+id/progressBar"
+                app:layout_anchorGravity="center"/>
 
 
             <com.google.android.material.floatingactionbutton.FloatingActionButton
