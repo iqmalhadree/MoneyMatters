@@ -16,7 +16,7 @@
             android:id="@+id/my_Feed_Toolbar"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="#000"
+            android:background="#6F2DA8"
             android:elevation="4dp"
             android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
             app:popupTheme="@style/ThemeOverlay.AppCompat.Light"/>
@@ -25,7 +25,7 @@
             android:id="@+id/totalBudgetAmountTextView"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Total Spending: 00.00"
+            android:text="Total Spending: RM 00.00"
             android:textColor="#000"
             android:textSize="20sp"
             android:textStyle="bold"
@@ -161,7 +161,7 @@
                         android:layout_toEndOf="@+id/linearLayout"
                         android:layout_width="50dp"
                         android:layout_height="50dp"
-                        android:src="@drawable/ic_transport"
+                        android:src="@drawable/transport"
                         android:layout_margin="10dp"/>
 
                 </RelativeLayout>
@@ -231,7 +231,7 @@
                         android:layout_toEndOf="@+id/linearLayout1"
                         android:layout_width="50dp"
                         android:layout_height="50dp"
-                        android:src="@drawable/ic_food"
+                        android:src="@drawable/food"
                         android:layout_margin="10dp"/>
 
                 </RelativeLayout>
@@ -297,13 +297,13 @@
                     </LinearLayout>
 
                     <ImageView
-                        android:layout_width="50dp"
-                        android:layout_height="50dp"
-                        android:layout_marginStart="10dp"
+                        android:layout_width="65dp"
+                        android:layout_height="65dp"
+                        android:layout_marginStart="40dp"
                         android:layout_marginEnd="10dp"
                         android:layout_marginBottom="10dp"
                         android:layout_toEndOf="@+id/linearLayout2"
-                        android:src="@drawable/ic_house" />
+                        android:src="@drawable/house" />
 
                 </RelativeLayout>
                 <RelativeLayout
@@ -370,9 +370,9 @@
 
                     <ImageView
                         android:layout_toEndOf="@+id/linearLayout3"
-                        android:layout_width="50dp"
-                        android:layout_height="50dp"
-                        android:src="@drawable/ic_entertainment"
+                        android:layout_width="65dp"
+                        android:layout_height="65dp"
+                        android:src="@drawable/entertainment"
                         android:layout_margin="10dp"/>
 
                 </RelativeLayout>
@@ -440,9 +440,9 @@
 
                     <ImageView
                         android:layout_toEndOf="@+id/linearLayout4"
-                        android:layout_width="50dp"
-                        android:layout_height="50dp"
-                        android:src="@drawable/ic_education"
+                        android:layout_width="65dp"
+                        android:layout_height="65dp"
+                        android:src="@drawable/education"
                         android:layout_margin="10dp"/>
 
                 </RelativeLayout>
@@ -510,10 +510,12 @@
 
                     <ImageView
                         android:layout_toEndOf="@+id/linearLayout5"
-                        android:layout_width="50dp"
-                        android:layout_height="50dp"
-                        android:src="@drawable/ic_consultancy"
-                        android:layout_margin="10dp"/>
+                        android:layout_width="65dp"
+                        android:layout_height="65dp"
+                        android:src="@drawable/charity"
+                        android:layout_marginStart="40dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginEnd="10dp"/>
 
                 </RelativeLayout>
                 <RelativeLayout
@@ -580,10 +582,14 @@
 
                     <ImageView
                         android:layout_toEndOf="@+id/linearLayout6"
-                        android:layout_width="50dp"
-                        android:layout_height="50dp"
-                        android:src="@drawable/ic_shirt"
-                        android:layout_margin="10dp"/>
+                        android:layout_width="65dp"
+                        android:layout_height="65dp"
+                        android:src="@drawable/clothes"
+                        android:layout_marginStart="40dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginEnd="10dp"
+                        android:layout_marginBottom="10dp"
+                             />
 
                 </RelativeLayout>
                 <RelativeLayout
@@ -651,10 +657,14 @@
 
                     <ImageView
                         android:layout_toEndOf="@+id/linearLayout7"
-                        android:layout_width="50dp"
-                        android:layout_height="50dp"
-                        android:src="@drawable/ic_health"
-                        android:layout_margin="10dp"/>
+                        android:layout_width="65dp"
+                        android:layout_height="65dp"
+                        android:layout_marginStart="40dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginEnd="10dp"
+                        android:layout_marginBottom="10dp"
+                        android:src="@drawable/health"
+                        />
 
                 </RelativeLayout>
                 <RelativeLayout
@@ -721,9 +731,13 @@
 
                     <ImageView
                         android:layout_toEndOf="@+id/linearLayout8"
-                        android:layout_width="50dp"
-                        android:layout_height="50dp"
-                        android:src="@drawable/ic_personalcare"
+                        android:layout_width="65dp"
+                        android:layout_height="65dp"
+                        android:layout_marginStart="40dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginEnd="10dp"
+                        android:layout_marginBottom="10dp"
+                        android:src="@drawable/personal"
                         android:layout_margin="10dp"/>
 
                 </RelativeLayout>
@@ -793,10 +807,14 @@
 
                     <ImageView
                         android:layout_toEndOf="@+id/linearLayout9"
-                        android:layout_width="50dp"
-                        android:layout_height="50dp"
-                        android:src="@drawable/ic_other"
-                        android:layout_margin="10dp"/>
+                        android:layout_width="65dp"
+                        android:layout_height="65dp"
+                        android:layout_marginStart="40dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginEnd="10dp"
+                        android:layout_marginBottom="10dp"
+                        android:src="@drawable/other"
+                        />
                 </RelativeLayout>
 
                 <com.anychart.AnyChartView
@@ -873,8 +891,8 @@
 
                     <ImageView
                         android:layout_toEndOf="@+id/linearLayout10"
-                        android:layout_width="50dp"
-                        android:layout_height="50dp"
+                        android:layout_width="65dp"
+                        android:layout_height="65dp"
                         android:src="@drawable/today"
                         android:layout_margin="10dp"/>
 
