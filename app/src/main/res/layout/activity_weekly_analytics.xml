@@ -166,7 +166,7 @@
                         android:layout_marginEnd="10dp"
                         android:layout_marginBottom="10dp"
                         android:layout_toEndOf="@+id/linearLayout"
-                        android:src="@drawable/transport" />
+                        android:src="@drawable/ic_transport" />
 
                 </RelativeLayout>
                 <RelativeLayout
@@ -239,7 +239,7 @@
                         android:layout_marginEnd="10dp"
                         android:layout_marginBottom="10dp"
                         android:layout_toEndOf="@+id/linearLayout1"
-                        android:src="@drawable/food" />
+                        android:src="@drawable/ic_food" />
 
                 </RelativeLayout>
                 <RelativeLayout
@@ -311,7 +311,7 @@
                         android:layout_marginEnd="10dp"
                         android:layout_marginBottom="10dp"
                         android:layout_toEndOf="@+id/linearLayout2"
-                        android:src="@drawable/house" />
+                        android:src="@drawable/ic_house" />
 
                 </RelativeLayout>
                 <RelativeLayout
@@ -385,7 +385,7 @@
                         android:layout_marginEnd="10dp"
                         android:layout_marginBottom="10dp"
                         android:layout_toEndOf="@+id/linearLayout3"
-                        android:src="@drawable/entertainment" />
+                        android:src="@drawable/ic_entertainment" />
 
                 </RelativeLayout>
                 <RelativeLayout
@@ -457,7 +457,7 @@
                         android:layout_marginTop="10dp"
                         android:layout_marginEnd="10dp"
                         android:layout_toEndOf="@+id/linearLayout4"
-                        android:src="@drawable/education" />
+                        android:src="@drawable/ic_education" />
 
                 </RelativeLayout>
                 <RelativeLayout
@@ -530,7 +530,7 @@
                         android:layout_marginEnd="10dp"
                         android:layout_marginBottom="10dp"
                         android:layout_toEndOf="@+id/linearLayout5"
-                        android:src="@drawable/charity" />
+                        android:src="@drawable/ic_consultancy" />
 
                 </RelativeLayout>
                 <RelativeLayout
@@ -603,7 +603,7 @@
                         android:layout_marginEnd="10dp"
                         android:layout_marginBottom="10dp"
                         android:layout_toEndOf="@+id/linearLayout6"
-                        android:src="@drawable/clothes" />
+                        android:src="@drawable/ic_shirt" />
 
                 </RelativeLayout>
                 <RelativeLayout
@@ -677,7 +677,7 @@
                         android:layout_marginEnd="10dp"
                         android:layout_marginBottom="10dp"
                         android:layout_toEndOf="@+id/linearLayout7"
-                        android:src="@drawable/health" />
+                        android:src="@drawable/ic_health" />
 
                 </RelativeLayout>
                 <RelativeLayout
@@ -750,7 +750,7 @@
                         android:layout_marginEnd="10dp"
                         android:layout_marginBottom="10dp"
                         android:layout_toEndOf="@+id/linearLayout8"
-                        android:src="@drawable/personal" />
+                        android:src="@drawable/ic_personalcare" />
 
                 </RelativeLayout>
                 <RelativeLayout
@@ -825,7 +825,7 @@
                         android:layout_marginEnd="10dp"
                         android:layout_marginBottom="10dp"
                         android:layout_toEndOf="@+id/linearLayout9"
-                        android:src="@drawable/other" />
+                        android:src="@drawable/ic_other" />
                 </RelativeLayout>
 
                 <com.anychart.AnyChartView
@@ -904,7 +904,7 @@
                         android:layout_toEndOf="@+id/linearLayout10"
                         android:layout_width="50dp"
                         android:layout_height="50dp"
-                        android:src="@drawable/week"
+                        android:src="@drawable/weekly"
                         android:layout_margin="10dp"/>
 
                 </RelativeLayout>
