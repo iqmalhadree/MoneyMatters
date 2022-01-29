@@ -84,13 +84,13 @@ public class TodayItemsAdapter  extends  RecyclerView.Adapter<TodayItemsAdapter.
                 holder.imageView.setImageResource(R.drawable.ic_consultancy);
                 break;
             case "Apparel":
-                holder.imageView.setImageResource(R.drawable.ic_clothes);
+                holder.imageView.setImageResource(R.drawable.ic_shirt);
                 break;
             case "Health":
                 holder.imageView.setImageResource(R.drawable.ic_health);
                 break;
             case "Personal":
-                holder.imageView.setImageResource(R.drawable.ic_personal);
+                holder.imageView.setImageResource(R.drawable.ic_personalcare);
                 break;
             case "Other":
                 holder.imageView.setImageResource(R.drawable.ic_other);
