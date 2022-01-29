@@ -5,12 +5,13 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:background="#c0c0c0"
     tools:context=".BudgetActivity">
 
     <androidx.appcompat.widget.Toolbar
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="#000"
+        android:background="#ffe347"
         android:id="@+id/toolbar"
         android:elevation="4dp"
         android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
@@ -20,7 +21,7 @@
         android:id="@+id/totalBudgetAmountTextView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="total Budget amount: $0"
+        android:text="total Budget: RM 0"
         android:textSize="25sp"
         android:textStyle="bold"
         android:textAlignment="center"
