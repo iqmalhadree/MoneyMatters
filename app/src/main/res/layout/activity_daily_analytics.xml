@@ -161,7 +161,7 @@
                         android:layout_toEndOf="@+id/linearLayout"
                         android:layout_width="50dp"
                         android:layout_height="50dp"
-                        android:src="@drawable/transport"
+                        android:src="@drawable/ic_transport"
                         android:layout_margin="10dp"/>
 
                 </RelativeLayout>
@@ -231,7 +231,7 @@
                         android:layout_toEndOf="@+id/linearLayout1"
                         android:layout_width="50dp"
                         android:layout_height="50dp"
-                        android:src="@drawable/food"
+                        android:src="@drawable/ic_food"
                         android:layout_margin="10dp"/>
 
                 </RelativeLayout>
@@ -303,7 +303,7 @@
                         android:layout_marginEnd="10dp"
                         android:layout_marginBottom="10dp"
                         android:layout_toEndOf="@+id/linearLayout2"
-                        android:src="@drawable/house" />
+                        android:src="@drawable/ic_house" />
 
                 </RelativeLayout>
                 <RelativeLayout
@@ -372,7 +372,7 @@
                         android:layout_toEndOf="@+id/linearLayout3"
                         android:layout_width="65dp"
                         android:layout_height="65dp"
-                        android:src="@drawable/entertainment"
+                        android:src="@drawable/ic_entertainment"
                         android:layout_margin="10dp"/>
 
                 </RelativeLayout>
@@ -442,7 +442,7 @@
                         android:layout_toEndOf="@+id/linearLayout4"
                         android:layout_width="65dp"
                         android:layout_height="65dp"
-                        android:src="@drawable/education"
+                        android:src="@drawable/ic_education"
                         android:layout_margin="10dp"/>
 
                 </RelativeLayout>
@@ -512,7 +512,7 @@
                         android:layout_toEndOf="@+id/linearLayout5"
                         android:layout_width="65dp"
                         android:layout_height="65dp"
-                        android:src="@drawable/charity"
+                        android:src="@drawable/ic_consultancy"
                         android:layout_marginStart="40dp"
                         android:layout_marginTop="10dp"
                         android:layout_marginEnd="10dp"/>
@@ -584,7 +584,7 @@
                         android:layout_toEndOf="@+id/linearLayout6"
                         android:layout_width="65dp"
                         android:layout_height="65dp"
-                        android:src="@drawable/clothes"
+                        android:src="@drawable/ic_shirt"
                         android:layout_marginStart="40dp"
                         android:layout_marginTop="10dp"
                         android:layout_marginEnd="10dp"
@@ -663,7 +663,7 @@
                         android:layout_marginTop="10dp"
                         android:layout_marginEnd="10dp"
                         android:layout_marginBottom="10dp"
-                        android:src="@drawable/health"
+                        android:src="@drawable/ic_health"
                         />
 
                 </RelativeLayout>
@@ -737,7 +737,7 @@
                         android:layout_marginTop="10dp"
                         android:layout_marginEnd="10dp"
                         android:layout_marginBottom="10dp"
-                        android:src="@drawable/personal"
+                        android:src="@drawable/ic_personalcare"
                         android:layout_margin="10dp"/>
 
                 </RelativeLayout>
@@ -813,7 +813,7 @@
                         android:layout_marginTop="10dp"
                         android:layout_marginEnd="10dp"
                         android:layout_marginBottom="10dp"
-                        android:src="@drawable/other"
+                        android:src="@drawable/ic_other"
                         />
                 </RelativeLayout>
 
