@@ -1,47 +1,68 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout 
+xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".WeekSpendingActivity">
-
-    <androidx.appcompat.widget.Toolbar
+    android:layout_height="match_parent"
+    tools:context=".WeekSpendingActivity"
+    android:background="#c0c0c0">
+ 
+    <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:background="#000"
-        android:id="@+id/toolbar"
-        android:elevation="4dp"
-        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
-        app:popupTheme="@style/ThemeOverlay.AppCompat.Light"/>
-
-    <TextView
-        android:id="@+id/totalWeekAmountTextView"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="total week amount: $0"
-        android:textSize="25sp"
-        android:textStyle="bold"
-        android:textAlignment="center"
-        android:textColor="#000"
-        android:layout_marginTop="5dp"/>
-
-    <androidx.coordinatorlayout.widget.CoordinatorLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent">
-
-        <ProgressBar
-            android:id="@+id/progressBar"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center_vertical|center_horizontal"/>
-
-        <androidx.recyclerview.widget.RecyclerView
-            android:id="@+id/recyclerView"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <androidx.appcompat.widget.Toolbar
             android:layout_width="match_parent"
-            android:layout_height="match_parent"/>
+            android:layout_height="wrap_content"
+            android:background="#ffe347"
+            android:id="@+id/toolbar"
+            android:elevation="4dp"
 
-    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+            app:popupTheme="@style/ThemeOverlay.AppCompat.Light"/>
+
+        <TextView
+            android:id="@+id/totalAmountSpentOn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Today Spending: RM 0"
+            android:textColor="#000"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_margin="5dp"/>
+
+        <androidx.coordinatorlayout.widget.CoordinatorLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ProgressBar
+                android:id="@+id/progressBar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical|center_horizontal"/>
+
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/recyclerView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:layout_anchor="@+id/progressBar"
+                app:layout_anchorGravity="center" />
+
+            <com.google.android.material.floatingactionbutton.FloatingActionButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom|end"
+                app:fabSize="normal"
+                android:id="@+id/fab"
+                app:backgroundTint="#000"
+                android:src="@drawable/ic_add"
+                android:layout_margin="16dp"/>
+        </androidx.coordinatorlayout.widget.CoordinatorLayout>
+
+    </LinearLayout>
 
 </LinearLayout>
