@@ -62,7 +62,7 @@ public class WeeklyAnalyticsActivity extends AppCompatActivity {
         setSupportActionBar(settingsToolbar);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         getSupportActionBar().setDisplayShowHomeEnabled(true);
-        getSupportActionBar().setTitle("Weekly Analytics Analytics");
+        getSupportActionBar().setTitle("Weekly Analytics");
 
 
         mAuth = FirebaseAuth.getInstance();
