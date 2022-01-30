@@ -9,7 +9,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name="com.okok.moneymatters.AccountActivity"></activity>
+        <activity android:name="com.okok.moneymatters.AccountActivity"/>
         <activity android:name="com.okok.moneymatters.HistoryActivity" />
         <activity android:name="com.okok.moneymatters.MonthlyAnalyticsActivity" />
         <activity android:name="com.okok.moneymatters.WeeklyAnalyticsActivity" />

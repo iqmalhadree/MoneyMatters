@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/bgimage"
+    android:background="#ffe347"
     tools:context=".MainActivity">
 
     <androidx.appcompat.widget.Toolbar
@@ -13,7 +13,7 @@
         android:background="#000"
         android:id="@+id/toolbar"
         android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
-        app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light">
 
     </androidx.appcompat.widget.Toolbar>
 
@@ -21,13 +21,12 @@
         android:id="@+id/titles_table"
         android:layout_below="@+id/toolbar"
         android:layout_gravity="center_horizontal"
-        //android:paddingHorizontal="10dp"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
+        android:layout_height="wrap_content"
         android:layout_marginTop="0dp"
         android:paddingHorizontal="0dp">
 
-        <TableRow >
+        <TableRow>
             <TextView
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
@@ -39,7 +38,6 @@
                 android:background="#000"
                 android:padding="5dp"
                 android:textSize="12dp"/>
-
             <TextView
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
@@ -87,7 +85,7 @@
                 android:textSize="12dp"/>
         </TableRow>
 
-        <TableRow >
+        <TableRow>
             <TextView
                 android:id="@+id/budgetTv"
                 android:layout_width="0dp"
@@ -156,7 +154,7 @@
         android:id="@+id/coordinator_layout"
         android:layout_below="@+id/titles_table"
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="match_parent"
         android:layout_marginTop="-2dp">
         
         <GridLayout
@@ -257,8 +255,8 @@
                 android:layout_margin="8dp"
                 app:cardCornerRadius="10dp"
                 app:cardElevation="8dp"
-                android:background="#ffd700"
-                >
+                android:background="#ffd700">
+
                 <LinearLayout
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -294,8 +292,7 @@
                 android:layout_margin="8dp"
                 app:cardCornerRadius="10dp"
                 app:cardElevation="8dp"
-                android:background="#fff"
-                >
+                android:background="#fff">
                 <LinearLayout
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -344,7 +341,7 @@
                         android:id="@+id/analyticsImageView"
                         android:layout_width="60dp"
                         android:layout_height="60dp"
-                        android:src="@drawable/ic_anaytics"/>
+                        android:src="@drawable/ic_analytics"/>
                     <TextView
                         android:id="@+id/analyticsTextView"
                         android:layout_width="wrap_content"
@@ -368,8 +365,7 @@
                 android:layout_margin="8dp"
                 app:cardCornerRadius="10dp"
                 app:cardElevation="8dp"
-                android:background="#fff"
-                >
+                android:background="#fff">
                 <LinearLayout
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"

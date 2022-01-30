@@ -272,10 +272,10 @@ public class BudgetActivity extends AppCompatActivity {
                         holder.imageView.setImageResource(R.drawable.ic_education);
                         break;
                     case "Charity":
-                        holder.imageView.setImageResource(R.drawable.ic_consultancy);
+                        holder.imageView.setImageResource(R.drawable.charity);
                         break;
                     case "Apparel":
-                        holder.imageView.setImageResource(R.drawable.ic_shirt);
+                        holder.imageView.setImageResource(R.drawable.clothes);
                         break;
                     case "Health":
                         holder.imageView.setImageResource(R.drawable.ic_health);

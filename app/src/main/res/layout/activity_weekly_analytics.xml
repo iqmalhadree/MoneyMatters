@@ -530,7 +530,7 @@
                         android:layout_marginEnd="10dp"
                         android:layout_marginBottom="10dp"
                         android:layout_toEndOf="@+id/linearLayout5"
-                        android:src="@drawable/ic_consultancy" />
+                        android:src="@drawable/charity" />
 
                 </RelativeLayout>
                 <RelativeLayout
@@ -603,7 +603,7 @@
                         android:layout_marginEnd="10dp"
                         android:layout_marginBottom="10dp"
                         android:layout_toEndOf="@+id/linearLayout6"
-                        android:src="@drawable/ic_shirt" />
+                        android:src="@drawable/clothes" />
 
                 </RelativeLayout>
                 <RelativeLayout
